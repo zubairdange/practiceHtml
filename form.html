@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+</head>
+<style>
+    form{
+        background-color: teal;
+        width: 400px;
+        padding: 15px;
+        box-shadow: 0 0 10px black;
+        border-radius: 8px;
+        
+    }
+    .formele{
+        background: linear-gradient(45deg,rgb(250, 238, 71),red);
+        width: 400px;
+        padding: 15px;
+        box-shadow: 0 0 10px black;
+        border-radius: 10px;
+    }
+</style>
+<body>
+
+    <!-- Simple Form -->
+
+    <h2>Login Form</h2>
+    <form >
+        <label>User Name:</label>
+        <input type="text">
+        <br><br>
+        <label>Password:</label>
+        <input type="password" placeholder="password" >
+        <br><br>
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+    </form>
+    <br><br><br>
+    <!-- Form Create with Table -->
+
+    <h2>Form With Table</h2>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label>Email Add:</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="@gmail.com">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Password</label>
+                </td>
+                <td>
+                    <input type="password" placeholder="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Login">
+                </td>
+                <td>
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <!-- Selectbox with Options -->
+    <h2>SelectBox With Options</h2>
+    <form>
+        <label>Select Technology:</label>
+        <select>
+            <option>HTMl</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+        </select>
+    </form>
+    <!-- Select box With option Group -->
+
+    <h2>Select box with Option Group</h2>
+    <form>
+        <label>Choose Your Tech.</label>
+        <select>
+            <optgroup label="FrontEnd">
+                <option>HTMl</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+            </optgroup>
+            <optgroup label="BackEnd">
+                <option>Java</option>
+                <option>PHP</option>
+                <option>.Net</option>
+            </optgroup>
+        </select>
+    </form>
+    <br>
+
+    <!-- TextArea -->
+    <form>
+        <label>Your Comment</label>
+        <textarea rows="5" cols="40" maxlength="100"></textarea>
+    </form>
+
+    <!-- Full Form -->
+    <h1>Complete Form</h1>
+    <form class="formele">
+        <table>
+            <tr>
+                <td>
+                    <label>Email Add:</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="@gmail.com">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Password</label>
+                </td>
+                <td>
+                    <input type="password" placeholder="password">
+                </td>
+            </tr>
+        </table>
+        <label>Select Technology:</label>
+        <select>
+            <option>HTMl</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+        </select>
+        <br><br>
+        <label>
+            select Tech:
+        </label>
+        <select>
+            <optgroup label="FrontEnd">
+                <option>HTMl</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+            </optgroup>
+            <optgroup label="BackEnd">
+                <option>Java</option>
+                <option>PHP</option>
+                <option>.Net</option>
+            </optgroup>
+        </select>
+        <h2>Textarea box</h2>
+        <form>
+            <label>Your Comments</label>
+            <textarea rows="5" cols="40" maxlength="100"></textarea>
+        </form>
+        <br><br>
+        <input type="submit" value="Login">
+        <input type="reset" value="Reset">
+        <br><br>  
+    </form>
+
+    <form>
+        <label>TextArea</label>
+        <textarea cols="30" rows="5"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    
+
+    
+</body>
+</html>

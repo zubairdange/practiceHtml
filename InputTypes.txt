@@ -1,0 +1,22 @@
+HTML Input Types.........
+
+1- Text
+2-password
+3-radio
+4-checkbox
+5-textarea
+6-color
+7-date
+8-time
+9-datetime-local
+10-email
+11-month
+12-number========= Required minimum & maximum value and how much stpes. 
+(means no. where we start)
+13-range===========Required minimum & maximum value from (0 To xyz) 
+& most imp to give the Id for rage b'coz to performing the range action using JavaScript.
+14-search
+15-time
+16-url
+17-week
+18-file
